@@ -29,3 +29,13 @@ Open MaskRCNN/main.py
 data_path = os.path.join(os.path.dirname(os.getcwd()), 'dataset')
 inference(data_path, score_thresh = 0.8)
 ```
+
+![Result](MaskRCNN/results/img1.jpg)
+
+## TODO
+
+- [x] Region Proposal Network
+- [x] Faster RCNN
+- [x] Mask RCNN
+- [ ] The article of Understand-MaskRCNN
+- [ ] Flexible anchors mask rcnn
